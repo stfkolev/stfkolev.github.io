@@ -1,0 +1,114 @@
+body, html, #Stage {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #000;
+}
+
+#Stage, #Stage *, body.fallback * {
+	position: absolute;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: none;
+}
+
+#Stage br, #Stage span, br {
+	position: relative;
+}
+
+@font-face {
+	font-family: 'Muncie';
+	src: url('../fonts/muncie-webfont.woff2') format('woff2'),
+	url('../fonts/muncie-webfont.woff') format('woff');
+	font-weight: normal; font-style: normal;
+}
+
+@font-face {
+	font-family: 'NexaBold';
+	src: url('../fonts/nexa_bold-webfont.woff2') format('woff2'),
+	url('../fonts/nexa_bold-webfont.woff') format('woff');
+	font-weight: normal; font-style: normal;
+}
+
+@font-face {
+	font-family: 'NexaLight';
+	src: url('../fonts/nexa_light-webfont.woff2') format('woff2'),
+	url('../fonts/nexa_light-webfont.woff') format('woff');
+	font-weight: normal; font-style: normal;
+}
+
+.TextContent, .TextContent * {
+	color: white;
+}
+
+body.fallback {
+	background: #eee;
+	color: #111;
+}
+
+body.fallback .pageWrapper{
+	width: 960px;
+	height: 500px;
+	top: 50%;
+	left: 50%;
+	margin-left: -480px;
+	margin-top: -250px;
+}
+
+body.fallback .logo{
+	width: 350px;
+	height: 350px;
+	background-image: url('../images/fallback/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/fallback/logo.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/fallback/logo.png', sizingMethod='scale')";
+	top: 0;
+	left: 50%;
+	margin-left: -175px;
+}
+
+body.fallback .text {
+	font: 0.85em 'NexaLight';
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.text a {
+	text-decoration: none;
+	font: 1em 'NexaBold';
+	position: relative !important;
+	color: #555;
+}
+
+.text a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+body.fallback .text-container{
+	width: 500px;
+	height: 100px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -250px;
+}
+
+body.fallback .text-0 {
+	width: 100%;
+}
+
+.fallback .text-1 {
+	width: 252px;
+	left: 50%;
+	margin-left: -127px;
+	top: 20px;
+}
+
+.fallback .text-2 {
+	width: 200px;
+	left: 50%;
+	margin-left: -100px;
+	top: 75px;
+}

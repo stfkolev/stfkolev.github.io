@@ -1,0 +1,24 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Stf Kolev",
+  "legalName": "Stf Kolev LLC",
+  "description": "Stf Kolev is a designer creative digital experiences. I'm pushing the future of web technology.",
+  "url": "https://stfkolev.com",
+  "email": "inkyzfx@gmail.com",
+  "telephone": "+359-876-181-954",
+  "logo": "../assets/meta/icon-512.png",
+  "foundingDate": "2012",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Drazki 27",
+    "addressLocality": "Varna",
+    "addressRegion": "Varna",
+    "postalCode": "9000",
+    "addressCountry": "Bulgaria"
+  },
+  "sameAs": [
+    "https://www.facebook.com/stfkolew/",
+    "https://twitter.com/stfkolev"
+  ]
+}
